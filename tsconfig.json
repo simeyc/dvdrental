@@ -1,0 +1,9 @@
+{
+  "extends": "@tsconfig/node21",
+  "include": ["src/*.ts"],
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": "src",
+    "noImplicitAny": true
+  }
+}
